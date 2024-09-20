@@ -28,3 +28,7 @@ function showdisplyByid(id){
     document.getElementById(id).classList.remove('hidden')
 
 }
+
+document.getElementById('log-out').addEventListener("click",function(){
+    window.location.href ='index.html'
+})
